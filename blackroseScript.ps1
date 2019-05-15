@@ -3,7 +3,7 @@
 # start google chrome and install sam picker | ava.
 
 $filepath = 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
-$sampicker = '-ArgumentList https://github.com/gibbed/SteamAchievementManager/archive/master.zip'
+$sampicker = '-ArgumentList https://github.com/gibbed/SteamAchievementManager/releases/download/7.0.17/SteamAchievementManager-7.0.17.zip'
 $tutorial = '-ArgumentList https://www.nigol.ee/tf2--black-rose.html'
 $ava = '-ArgumentList steam://install/102700'
 
@@ -20,7 +20,7 @@ if (Test-Path -Path $filepath) {
     Write-Host "I will provide you with download links." 
     Write-Host " "
     Start-Sleep -s 1
-    Write-Host "Link to SAM Picker - https://github.com/gibbed/SteamAchievementManager/archive/master.zip"
+    Write-Host "Link to SAM Picker - https://github.com/gibbed/SteamAchievementManager/releases/download/7.0.17/SteamAchievementManager-7.0.17.zip"
     Write-Host "Link to installing A.V.A - steam://install/102700"
 
 }
